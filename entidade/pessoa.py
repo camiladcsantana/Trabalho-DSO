@@ -1,7 +1,7 @@
 from abc import ABC
 
 class Pessoa(ABC):
-    def __init__(self, cpf, nome, data_nascimento, endereco): 
+    def __init__(self, cpf, nome, data_nascimento, endereco):
         self._nome = nome
 
         self._data_nascimento = data_nascimento

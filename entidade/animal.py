@@ -54,7 +54,6 @@ class Animal(ABC):
     def vacinas(self):
         return self.__vacinas
 
-
     def nova_vacina(self, vacina):
         if not isinstance(vacina, Vacina):
             raise ValueError('A vacina deve ser um objeto da classe Vacina.')
